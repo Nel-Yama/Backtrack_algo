@@ -71,5 +71,7 @@ int	main(int ac, char **av)
 		i++;
 	}
 	ft_powerset(s, sub_s, n, 0, 0, ac - 2);
+	free(s);
+	free(sub_s);
 	return(0);
 }
